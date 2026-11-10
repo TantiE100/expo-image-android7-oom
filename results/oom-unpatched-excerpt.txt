@@ -1,0 +1,21 @@
+E GlideExecutor: java.lang.OutOfMemoryError: Failed to allocate a 65548 byte allocation with 39496 free bytes and 38KB until OOM
+E GlideExecutor: 	at gb0.h(r8-map-id-ed54a7282a91d7372a4778003616563c3e07159dff552df9db3b9cc53c1bb3e3:87)
+E GlideExecutor: 	at gb0.f(r8-map-id-ed54a7282a91d7372a4778003616563c3e07159dff552df9db3b9cc53c1bb3e3:97)
+E GlideExecutor: 	at jw1.e(r8-map-id-ed54a7282a91d7372a4778003616563c3e07159dff552df9db3b9cc53c1bb3e3:13)
+E GlideExecutor: 	at xa0.y(r8-map-id-ed54a7282a91d7372a4778003616563c3e07159dff552df9db3b9cc53c1bb3e3:148)
+E GlideExecutor: 	at hd0.y(r8-map-id-ed54a7282a91d7372a4778003616563c3e07159dff552df9db3b9cc53c1bb3e3:11)
+E GlideExecutor: 	at q73.d(r8-map-id-ed54a7282a91d7372a4778003616563c3e07159dff552df9db3b9cc53c1bb3e3:66)
+E GlideExecutor: 	at q73.b(r8-map-id-ed54a7282a91d7372a4778003616563c3e07159dff552df9db3b9cc53c1bb3e3:11)
+E GlideExecutor: 	at u20.m(r8-map-id-ed54a7282a91d7372a4778003616563c3e07159dff552df9db3b9cc53c1bb3e3:26)
+E GlideExecutor: 	at u20.n(r8-map-id-ed54a7282a91d7372a4778003616563c3e07159dff552df9db3b9cc53c1bb3e3:51)
+E GlideExecutor: 	at u20.run(r8-map-id-ed54a7282a91d7372a4778003616563c3e07159dff552df9db3b9cc53c1bb3e3:24)
+E GlideExecutor: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1133)
+E GlideExecutor: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:607)
+E GlideExecutor: 	at g0.run(r8-map-id-ed54a7282a91d7372a4778003616563c3e07159dff552df9db3b9cc53c1bb3e3:252)
+E GlideExecutor: 	at java.lang.Thread.run(Thread.java:761)
+E GlideExecutor: 	at ce.run(r8-map-id-ed54a7282a91d7372a4778003616563c3e07159dff552df9db3b9cc53c1bb3e3:11)
+E ExpoImage: Failed to load resource
+E ExpoImage: There was 1 root cause:
+W art     : Throwing OutOfMemoryError "Failed to allocate a 16 byte allocation with 3928 free bytes and 3KB until OOM"
+W art     : Throwing OutOfMemoryError "Failed to allocate a 28 byte allocation with 3928 free bytes and 3KB until OOM" (recursive case)
+E AndroidRuntime: java.lang.OutOfMemoryError: OutOfMemoryError thrown while trying to throw OutOfMemoryError; no stack trace available

@@ -1,0 +1,15 @@
+{
+  "expo": {
+    "name": "expo-image-api25-repro",
+    "slug": "expo-image-api25-repro",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "expoimageapi25repro",
+    "android": {
+      "package": "dev.example.expoimageapi25repro",
+      "predictiveBackGestureEnabled": false
+    },
+    "plugins": ["expo-router"]
+  }
+}

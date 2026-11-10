@@ -1,0 +1,41 @@
+appId: dev.example.expoimageapi25repro
+---
+- launchApp:
+    clearState: true
+- extendedWaitUntil:
+    visible: "home rail 0"
+    timeout: 60000
+- repeat:
+    times: 5
+    commands:
+      - tapOn: "Shelf"
+      - swipe:
+          start: 50%, 80%
+          end: 50%, 25%
+          duration: 600
+      - swipe:
+          start: 85%, 35%
+          end: 10%, 35%
+          duration: 500
+      - tapOn: "Feed"
+      - extendedWaitUntil:
+          visible: ".*"
+          timeout: 3000
+      - swipe:
+          start: 50%, 80%
+          end: 50%, 20%
+          duration: 600
+      - swipe:
+          start: 50%, 80%
+          end: 50%, 20%
+          duration: 600
+      - tapOn: "Gallery"
+      - swipe:
+          start: 50%, 80%
+          end: 50%, 25%
+          duration: 600
+      - swipe:
+          start: 85%, 35%
+          end: 10%, 35%
+          duration: 500
+- assertVisible: "Shelf"
